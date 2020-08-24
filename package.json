@@ -1,5 +1,6 @@
 {
     "scripts": {
-      "cypress:open": "cypress open"
+      "cypress:open": "cypress open",
+      "run:single": "cypress run --browser chrome --spec 'cypress/integration/examples/actions.spec.js'"
     }
   }
